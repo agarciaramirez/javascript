@@ -1,29 +1,38 @@
 // Exercise 1: Basic Variable Declaration
-let cajaDeAldo = "Mono"
+//let cajaDeAldo = "Mono"
 // Create variables for your name, age, and whether you like pizza
-let name = "Ernaldo"
-let age = 27
-let likesPizza = true
+//let name = "Ernaldo"
+//let age = 27
+//let likesPizza = true
 // Print all variables to the console
-console.log(cajaDeAldo)
-console.log(name)
-console.log(age)
-console.log(likesPizza)
+//console.log(cajaDeAldo)
+//console.log(name)
+//console.log(age)
+//console.log(likesPizza)
 
 // Exercise 2: Number Operations
 // Calculate the area of a rectangle and store it in a variable
 // Use let width = 10 and let height = 5
+let width = 10 
+let height = 5 
+console.log(width * height)
 
 
 // Exercise 3: String Concatenation
 // Create variables for first name and last name
 // Combine them to create a full name with a space in between
+let name = 'Ernaldo'
+let lastName = "Becerra"
+console.log(name + " " + lastName)
 
 
 // Exercise 4: Type Conversion
 // Convert a string number to an actual number
-// Then add 10 to it
-
+// Then add 10 to it 
+let string1 = '30'
+let integer = parseInt(string1)
+console.log(integer)
+console.log(typeof integer)
 
 // Exercise 5: Template Literals
 // Create variables for an item name and price
