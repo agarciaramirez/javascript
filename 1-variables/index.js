@@ -14,26 +14,26 @@
 // Exercise 2: Number Operations
 // Calculate the area of a rectangle and store it in a variable
 // Use let width = 10 and let height = 5
-let width = 10 
-let height = 5 
-console.log(width * height)
+//let width = 10 
+//let height = 5 
+//console.log(width * height)
 
 
 // Exercise 3: String Concatenation
 // Create variables for first name and last name
 // Combine them to create a full name with a space in between
-let name = 'Ernaldo'
-let lastName = "Becerra"
-console.log(name + " " + lastName)
+//let name = 'Ernaldo'
+//let lastName = "Becerra"
+//console.log(name + " " + lastName)
 
 
 // Exercise 4: Type Conversion
 // Convert a string number to an actual number
 // Then add 10 to it 
-let string1 = '30'
-let integer = parseInt(string1)
-console.log(integer)
-console.log(typeof integer)
+//let string1 = '30'
+//let integer = parseInt(string1)
+//console.log(integer)
+//console.log(typeof integer)
 
 // Exercise 5: Template Literals
 // Create variables for an item name and price
@@ -60,3 +60,4 @@ console.log(typeof integer)
 // Exercise 10: String Methods
 // Create a variable with your email address
 // Extract the username (part before @) and domain separately
+
