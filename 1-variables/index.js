@@ -1,3 +1,4 @@
+// empezando ah practicar Git y Github 
 // Exercise 1: Basic Variable Declaration
 //let cajaDeAldo = "Mono"
 // Create variables for your name, age, and whether you like pizza
@@ -59,4 +60,3 @@ console.log(typeof integer)
 // Exercise 10: String Methods
 // Create a variable with your email address
 // Extract the username (part before @) and domain separately
-
