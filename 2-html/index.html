@@ -6,24 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra, Papel o Tijera</title>
     <script>
+        // Ejercicio de platzi 
+        let nombre = ""
+        nombre = prompt("Cual es tu nombre?")
+        alert("Bienvenidos Al Juego," + " " + nombre)
         // 1 es para piedra, 2 es papel, 3 es tijera
         let jugador = 0
         let pc = 2
         jugador = prompt("Elige: 1 para piedra, 2 para papel, 3 para tijiera ")
         if (jugador == 1) {
-            alert("Eligiste piedra")
+            alert("Eligiste 🪨")
         } else if (jugador == 2) {
-            alert("Eligiste papel")
+            alert("Eligiste 🧻")
         } else if (jugador == 3) {
-            alert("Eligiste tijiera")
+            alert("Eligiste ✂️")
         } else {
             alert("Eligiste PERDER")
         }
 
-        // Ejercicio de platzi 
-        let nombre = ""
-        nombre = prompt("Cual es tu nombre?")
-        alert( "WELCOME" + " " + nombre )
+        if (pc == 1) {
+            alert("PC elige 🪨")
+        } else if (pc == 2) {
+            alert("PC elige 🧻")
+        } else if (pc == 3) {
+            alert("PC elige ✂️")
+        }
+        // COMBATE
+        if(pc == jugador){
+            alert("EMPATE")
+        } else if (jugador == 1 && pc == 3) {
+            alert("GANASTE")
+        } else if (jugador == 2 && pc == 1) {
+            alert("GANASTE")
+        } else if (jugador == 3 && pc == 2) {
+            alert("GANASTE")
+        } else {
+            alert("PERDISTE")
+        }
     </script>
 </head>
 
